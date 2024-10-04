@@ -1,0 +1,143 @@
+html{
+
+    height: 100%;
+
+}
+
+
+body{
+
+    background-color: #313131;
+    height: 100%;
+    margin: 0;
+
+}
+
+.pageTitle{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 15%;
+
+}
+
+.labelTitle{
+
+    color: #E744DF;
+    font-size: 40px;
+    font-family: Arial;
+
+}
+
+.labelTexts{
+
+    color: white;
+    text-align: right;
+    font-family: Arial;
+    font-size: 20px;
+    top: 50px;
+    left: 200px;
+    border: 50px;
+    position: relative;
+
+}
+
+.gaps{
+
+    height: 20px;
+
+}
+
+.objectOne{
+
+    top: 50px;
+    left: 350px;
+    width: 80px;
+    height:80px;
+    position: relative;
+    background: #E744DF;
+    animation: rotate-front-object 2s ease-in-out infinite;
+
+}
+
+.objectTwo{
+
+    top: 50px;
+    left: 350px;
+    width: 80px;
+    height:80px;
+    position: relative;
+    background: #E744DF;
+    animation: slope-front-object 2s ease-in-out infinite;
+
+}
+
+
+.objectThree{
+
+    top: 50px;
+    left: 350px;
+    width: 80px;
+    height:80px;
+    position: relative;
+    background: #E744DF;
+    animation: rotate-back-object 2s ease-in-out infinite;
+
+}
+
+
+.objectFour{
+
+    top: 50px;
+    left: 350px;
+    width: 80px;
+    height:80px;
+    position: relative;
+    background: #E744DF;
+    animation: slope-back-object 2s ease-in-out infinite;
+
+}
+
+
+@keyframes rotate-front-object {
+
+    100% {
+
+        transform: translate(900px) rotate(360deg);
+      
+    }
+  
+}
+
+@keyframes slope-front-object {
+
+    100% {
+
+        transform: translate(900px) rotate(30deg);
+      
+    }
+
+  
+}
+
+@keyframes rotate-back-object {
+
+    100% {
+
+        transform: translate(900px) rotate(-360deg);
+      
+    }
+  
+}
+
+@keyframes slope-back-object {
+
+    100% {
+
+        transform: translate(900px) rotate(-30deg);
+      
+    }
+
+  
+}
